@@ -1,0 +1,12 @@
+.navbar {
+	border: solid 1px;
+	text-align: center;
+	
+}
+.navbar li
+{
+	display: inline-block;
+	text-decoration: none;
+	margin: 20px;
+	padding: 5px;
+}

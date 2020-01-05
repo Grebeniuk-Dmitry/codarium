@@ -1,46 +1,74 @@
 
+body {
+	margin: 0px;
+}
 .head {
 	display: flex;
 	justify-content: space-around;
 	background-color: #373538;
-	border-radius: 10px;
+	border-radius: 5px;
+	}	
 
-		}	
 .headtext {
+	font-size: 2vh;
 	font-family: sans-serif;
 	color: #ffff;
-	padding: 30px;
+	margin-top: 2.5%;
+	text-shadow: 1px 1px 2px grey;
 
 }
-.navbar {
-	text-align: center;
-	
+.navbarhead
+{
+display: flex;
+flex-direction: column;
+margin-top: 1.5%;
 }
-.navbar ul 
+
+.navbar 
 {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	font-family: sans-serif;
-	font-size: 25px;
-	list-style: none;	
-		}
-.navbar ul li a
-{
-	text-decoration: none;
+	font-size: 3vh;
+	
 }
+.nav a
+{
+	color: black;
+	text-decoration: none;
+	
+}
+.navbar :hover {
+	color: #fff;
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em black;;
+
+}
+.menu {
+	display: flex;
+	flex-direction: column;
+	}
 
 .prodall {
-		border: solid 3px red;
-		column-count: 3;
-		break-inside: avoid;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 		}
 
 .prod {
-	width: 300px;
+	width: 35vh;
+	height: 35vh;
 	border: solid 1px;
 	border-radius: 30px;
 	text-align: center;
 	padding: 10px;
-	margin: 20px;
+	margin: 2%;
 
 	}
+.prod h3 {
+	margin-top: 20%;
+	font-size: 3vh; 
+}
+.prod p {
+	font-size: 2vh; 
+}

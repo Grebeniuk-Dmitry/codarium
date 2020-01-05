@@ -56,19 +56,26 @@ margin-top: 1.5%;
 		}
 
 .prod {
-	width: 35vh;
+	width: 38vh;
 	height: 35vh;
 	border: solid 1px;
 	border-radius: 30px;
 	text-align: center;
 	padding: 10px;
 	margin: 2%;
-
 	}
 .prod h3 {
-	margin-top: 20%;
+	margin-top: 0%;
 	font-size: 3vh; 
+	margin-bottom: 20%;
 }
 .prod p {
 	font-size: 2vh; 
+	}
+.prod a {
+	text-decoration: none;
+}
+footer {
+	text-align: right;
+	margin-right: 2%;
 }

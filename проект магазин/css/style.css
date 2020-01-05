@@ -1,0 +1,46 @@
+
+.head {
+	display: flex;
+	justify-content: space-around;
+	background-color: #373538;
+	border-radius: 10px;
+
+		}	
+.headtext {
+	font-family: sans-serif;
+	color: #ffff;
+	padding: 30px;
+
+}
+.navbar {
+	text-align: center;
+	
+}
+.navbar ul 
+{
+	display: flex;
+	justify-content: space-around;
+	font-family: sans-serif;
+	font-size: 25px;
+	list-style: none;	
+		}
+.navbar ul li a
+{
+	text-decoration: none;
+}
+
+.prodall {
+		border: solid 3px red;
+		column-count: 3;
+		break-inside: avoid;
+		}
+
+.prod {
+	width: 300px;
+	border: solid 1px;
+	border-radius: 30px;
+	text-align: center;
+	padding: 10px;
+	margin: 20px;
+
+	}

@@ -1,0 +1,24 @@
+.cat
+{
+	display: flex;
+
+	
+}
+.subcat {
+	display: none;
+	position: absolute;
+	padding-right: 40px;
+	
+}
+.cat:hover .subcat {
+	/*border: solid 2px red;*/ 
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding-left: 40px;
+	
+}
+.subsub:hover {
+	background-color: red;
+
+}

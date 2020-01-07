@@ -1,21 +1,23 @@
 .cat
 {
 	display: flex;
+	flex-direction: column;
+	font-size: 25px;
 
 	
 }
 .subcat {
 	display: none;
 	position: absolute;
-	padding-right: 40px;
-	
+	font-size: 20px;
+		
 }
 .cat:hover .subcat {
 	/*border: solid 2px red;*/ 
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	padding-left: 40px;
+	/*padding-left: 40px;*/
 	
 }
 .subsub:hover {
